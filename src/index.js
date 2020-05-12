@@ -4,6 +4,8 @@ import initSr from './js/sr';
 import './style/main.scss';
 
 $('a[href^="#"]').on('click', function(event) {
+  // let a = 1;
+  // let b = 2;
   var target = $(this.getAttribute('href'));
   if (target.length) {
     event.preventDefault();
